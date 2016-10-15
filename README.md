@@ -1,7 +1,7 @@
 # Computer-Vision-demosaicingImage
 
 Recall that in digital cameras the red, blue, and green sensors are interlaced in the Bayer pattern (Figure 2).
-The missing values are interpolated to obtain a full color image. In this part you will implement several
+The missing values are interpolated to obtain a full color image. This project implemenst several
 interpolation algorithms. The input to the algorithm is a single image im, a NxM array of numbers between
 0 and 1. These are measurements in the format shown in Figure 2, i.e., top left im(1,1) is red, im(1,2)
 is green, im(2,1) is green, im(2,2) is blue, etc. Included code creates a single color image C from these
