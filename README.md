@@ -7,6 +7,7 @@ interpolation algorithms. The input to the algorithm is a single image im, a NxM
 is green, im(2,1) is green, im(2,2) is blue, etc. Included code creates a single color image C from these
 measurements.
 
+![Bayer Patter ](./data/demosaic/bayer-pattern.png?raw=true)
 The code loads images from the data directory (in data/demosaic), artificially mosaics them (mosaicImage.m file), and provides them
 as input to the demosaicing algorithm (demosaicImage.m file). By comparing the result with the input
 we can also compute the reconstruction error measured as the distance between the reconstructed image
